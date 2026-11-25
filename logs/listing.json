@@ -1,4 +1,22 @@
 {
+  "btap/sentence_classes/highlighted_reasoning.eval": {
+    "eval_id": "FF29uoToru3YTuYgJkRuzB",
+    "run_id": "honesty_btap_sentence_classes",
+    "task": "Honesty B-TAP sentence classes: honest vs reward-hacking",
+    "task_id": "honesty_btap_sentence_classes",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-25T20:05:35+00:00",
+    "completed_at": "2026-11-25T20:05:35+00:00",
+    "primary_metric": {
+      "name": "total",
+      "value": 1816,
+      "params": {}
+    }
+  },
   "btap/rollouts/base.eval": {
     "eval_id": "AXTJnXW4rnfoQJeJwQokJ7",
     "run_id": "honesty_btap_base",
@@ -194,24 +212,6 @@
     "primary_metric": {
       "name": "rate",
       "value": 0.4533333333333333,
-      "params": {}
-    }
-  },
-  "btap/sentence_classes/highlighted_reasoning.eval": {
-    "eval_id": "2XGp5DtLMkbk3pDzgbGDXY",
-    "run_id": "honesty_btap_sentence_classes",
-    "task": "Honesty B-TAP sentence classes: honest vs reward-hacking",
-    "task_id": "honesty_btap_sentence_classes",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "nvidia/nemotron-3.5-super-vl",
-    "started_at": "2026-11-25T20:01:04+00:00",
-    "completed_at": "2026-11-25T20:01:04+00:00",
-    "primary_metric": {
-      "name": "total",
-      "value": 1816,
       "params": {}
     }
   },
